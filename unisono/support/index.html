@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Unisono — Suporte</title>
+    <meta
+      name="description"
+      content="Suporte do Unisono, afinador e metrônomo da Muricy Audio."
+    />
+    <style>
+      :root {
+        --bg: #ffffff;
+        --text: #1a1c20;
+        --muted: #5b6070;
+        --line: #e3e5ea;
+        --accent: #1f8a5b;
+        --chip: #f2f3f6;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #0f1115;
+          --text: #eceef2;
+          --muted: #9aa0ad;
+          --line: #262a33;
+          --accent: #4cd98f;
+          --chip: #1a1d24;
+        }
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--text);
+        font:
+          16px/1.6 -apple-system,
+          BlinkMacSystemFont,
+          'Segoe UI',
+          Roboto,
+          Helvetica,
+          Arial,
+          sans-serif;
+      }
+      main {
+        max-width: 720px;
+        margin: 0 auto;
+        padding: 32px 16px 64px;
+      }
+      header p {
+        color: var(--muted);
+        margin: 4px 0 0;
+      }
+      h1 {
+        font-size: 28px;
+        line-height: 1.2;
+        margin: 0;
+      }
+      h2 {
+        font-size: 19px;
+        margin: 32px 0 8px;
+      }
+      nav {
+        display: flex;
+        gap: 8px;
+        flex-wrap: wrap;
+        margin: 24px 0 8px;
+      }
+      nav a {
+        background: var(--chip);
+        border: 1px solid var(--line);
+        border-radius: 999px;
+        color: var(--text);
+        padding: 6px 14px;
+        text-decoration: none;
+        font-size: 14px;
+      }
+      section.lang {
+        border-top: 1px solid var(--line);
+        margin-top: 40px;
+        padding-top: 8px;
+      }
+      a {
+        color: var(--accent);
+      }
+      ul {
+        padding-left: 22px;
+      }
+      li {
+        margin: 4px 0;
+      }
+      .muted {
+        color: var(--muted);
+        font-size: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>Unisono</h1>
+        <p>Muricy Audio</p>
+      </header>
+      <nav aria-label="Idioma / Language / Idioma">
+        <a href="#pt" lang="pt-BR">Português</a>
+        <a href="#en" lang="en">English</a>
+        <a href="#es" lang="es">Español</a>
+      </nav>
+      <section class="lang" id="pt" lang="pt-BR">
+        <h1>Suporte</h1>
+        <p>Dúvidas, problemas ou sugestões sobre o Unisono? Veja as perguntas frequentes abaixo ou escreva para <a href="mailto:robertomuricy@gmail.com">robertomuricy@gmail.com</a>. Respondemos em português, inglês ou espanhol.</p>
+        <h2>O afinador não reage ao som</h2><p>Confira se o Unisono tem permissão para usar o microfone:</p><ul><li><b>iPhone:</b> Ajustes &gt; Unisono &gt; Microfone.</li><li><b>Android:</b> Configurações &gt; Apps &gt; Unisono &gt; Permissões &gt; Microfone.</li></ul><p>Se a permissão estiver ativa, toque mais perto do aparelho e evite ruído forte. No modo cordas com uma corda travada, o afinador só lê notas próximas dela: escolha <b>Auto</b> ou o modo <b>Cromático</b> para ouvir qualquer nota.</p><h2>Comprei o Pro, mas ele não aparece</h2><p>Abra <b>Ajustes &gt; Restaurar compras</b> no app, usando a mesma conta da App Store ou do Google Play com que você comprou. O Pro vitalício também volta assim quando você troca de aparelho.</p><h2>Como cancelar a assinatura anual</h2><p>A assinatura é gerenciada pela loja:</p><ul><li><b>iPhone:</b> Ajustes &gt; [seu nome] &gt; Assinaturas.</li><li><b>Android:</b> Google Play &gt; perfil &gt; Pagamentos e assinaturas &gt; Assinaturas.</li></ul><p>O Pro continua ativo até o fim do período já pago.</p><h2>Reembolsos</h2><p>Os pagamentos são processados pela Apple ou pelo Google, que decidem os reembolsos. Na Apple, use <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>; no Google Play, abra o histórico de pedidos da sua conta. Se precisar de ajuda, escreva para nós.</p><h2>Privacidade</h2><p>O áudio do microfone é analisado no aparelho e nunca é gravado nem enviado. Leia a <a href="../privacy/#pt">política de privacidade</a>.</p>
+        <h2>Contato</h2>
+        <p>Muricy Audio — <a href="mailto:robertomuricy@gmail.com">robertomuricy@gmail.com</a></p>
+      </section>
+      <section class="lang" id="en" lang="en">
+        <h1>Support</h1>
+        <p>Questions, problems or suggestions about Unisono? See the frequently asked questions below or email <a href="mailto:robertomuricy@gmail.com">robertomuricy@gmail.com</a>. We answer in English, Portuguese or Spanish.</p>
+        <h2>The tuner does not react to sound</h2><p>Check that Unisono can use the microphone:</p><ul><li><b>iPhone:</b> Settings &gt; Unisono &gt; Microphone.</li><li><b>Android:</b> Settings &gt; Apps &gt; Unisono &gt; Permissions &gt; Microphone.</li></ul><p>If it is allowed, play closer to the device and avoid loud noise. In string mode with a locked string, the tuner only reads notes near that string: choose <b>Auto</b> or <b>Chromatic</b> mode to hear any note.</p><h2>I bought Pro but it does not show up</h2><p>Open <b>Settings &gt; Restore purchases</b> in the app, using the same App Store or Google Play account you bought with. Lifetime Pro also comes back this way on a new device.</p><h2>How to cancel the yearly subscription</h2><p>The subscription is managed by the store:</p><ul><li><b>iPhone:</b> Settings &gt; [your name] &gt; Subscriptions.</li><li><b>Android:</b> Google Play &gt; profile &gt; Payments &amp; subscriptions &gt; Subscriptions.</li></ul><p>Pro stays active until the end of the period you already paid for.</p><h2>Refunds</h2><p>Payments are processed by Apple or Google, who decide on refunds. For Apple, use <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>; for Google Play, open your account order history. If you need help, email us.</p><h2>Privacy</h2><p>Microphone audio is analyzed on your device and is never recorded or sent. Read the <a href="../privacy/#en">privacy policy</a>.</p>
+        <h2>Contact</h2>
+        <p>Muricy Audio — <a href="mailto:robertomuricy@gmail.com">robertomuricy@gmail.com</a></p>
+      </section>
+      <section class="lang" id="es" lang="es">
+        <h1>Soporte</h1>
+        <p>¿Dudas, problemas o sugerencias sobre Unisono? Consulta las preguntas frecuentes o escribe a <a href="mailto:robertomuricy@gmail.com">robertomuricy@gmail.com</a>. Respondemos en español, portugués o inglés.</p>
+        <h2>El afinador no reacciona al sonido</h2><p>Comprueba que Unisono tenga permiso para usar el micrófono:</p><ul><li><b>iPhone:</b> Ajustes &gt; Unisono &gt; Micrófono.</li><li><b>Android:</b> Configuración &gt; Apps &gt; Unisono &gt; Permisos &gt; Micrófono.</li></ul><p>Si el permiso está activo, toca más cerca del dispositivo y evita el ruido fuerte. En modo cuerdas con una cuerda bloqueada, el afinador solo lee notas cercanas a ella: elige <b>Auto</b> o el modo <b>Cromático</b> para oír cualquier nota.</p><h2>Compré Pro, pero no aparece</h2><p>Abre <b>Ajustes &gt; Restaurar compras</b> en la app, con la misma cuenta de App Store o Google Play con la que compraste. Pro de por vida también vuelve así al cambiar de dispositivo.</p><h2>Cómo cancelar la suscripción anual</h2><p>La suscripción la gestiona la tienda:</p><ul><li><b>iPhone:</b> Ajustes &gt; [tu nombre] &gt; Suscripciones.</li><li><b>Android:</b> Google Play &gt; perfil &gt; Pagos y suscripciones &gt; Suscripciones.</li></ul><p>Pro sigue activo hasta el final del período ya pagado.</p><h2>Reembolsos</h2><p>Los pagos los procesan Apple o Google, que deciden sobre los reembolsos. En Apple, usa <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>; en Google Play, abre el historial de pedidos de tu cuenta. Si necesitas ayuda, escríbenos.</p><h2>Privacidad</h2><p>El audio del micrófono se analiza en tu dispositivo y nunca se graba ni se envía. Lee la <a href="../privacy/#es">política de privacidad</a>.</p>
+        <h2>Contacto</h2>
+        <p>Muricy Audio — <a href="mailto:robertomuricy@gmail.com">robertomuricy@gmail.com</a></p>
+      </section>
+    </main>
+  </body>
+</html>
